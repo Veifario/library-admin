@@ -2,7 +2,7 @@
 
 The project was made for the task of the interview. The main functionality of the project is to view and edit your own library.
 
-## Содержание
+## Content
 
 - [Technologies](#technologies)
 - [Usage](#usage)
