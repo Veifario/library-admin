@@ -17,7 +17,7 @@ type TProps = {
 };
 
 export default function BookCard({
-  bookInfo: { author, genre, shortDescription, title },
+  bookInfo: { author, genre, description, title },
 }: TProps) {
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -37,7 +37,7 @@ export default function BookCard({
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          {shortDescription}
+          {description}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
