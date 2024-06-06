@@ -1,24 +1,56 @@
-# Задание:
-Разработайте приложение «Менеджер личной библиотеки», используя React.js, TypeScript, SWR, axios, formik и MUI 5. Это приложение позволит пользователям управлять коллекцией книг, включая добавление новых книг, просмотр списка и обновление сведений о книгах. Mock-сервер node.js прилагается.
+# LIBA - Books Manager
 
-# Требования:
-## Функции управления книгами:
-Реализуйте функции добавления, просмотра, обновления и удаления книг.
-Каждая книга должна иметь такие атрибуты, как название, автор, жанр и краткое описание.
+The project was made for the task of the interview. The main functionality of the project is to view and edit your own library.
 
-## Обработка формы:
-Используйте formik (хук useFormik) для обработки отправки форм для добавления и обновления книг.
+## Содержание
 
-## Получение и кэширование данных:
-Используйте SWR для выборки, кэширования и управления состоянием данных.
-Реализуйте axios для отправки запросов API к предоставленному макетному серверу.
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Reference](#reference)
 
-## Компоненты пользовательского интерфейса с MUI 5:
-Создайте пользовательский интерфейс, используя компоненты Material UI (MUI 5). Убедитесь, что пользовательский интерфейс удобен для пользователя.
-Включите такие компоненты, как таблицы или списки для отображения книг, текстовые поля для форм, кнопки, сетку или стек для макета.
+## Technologies
 
-## Интеграция TypeScript:
-Применяйте TypeScript во всем приложении для проверки типов и улучшения качества кода.
+- [MUI5](https://mui.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SWR](https://swr.vercel.app)
+- [Axios](https://axios-http.com/docs/intro)
+- [Formik](https://formik.org/)
 
-## Адаптивный дизайн:
-Убедитесь, что приложение адаптивно и хорошо работает на экранах разных размеров.
+## Usage
+
+Install dependencies for client side:
+
+```sh
+$ cd ./client
+```
+
+```sh
+$ npm install
+```
+
+Install dependencies for server side:
+
+```sh
+$ cd ./server
+```
+
+```sh
+$ npm install
+```
+
+Run client:
+
+```sh
+$ npm run dev
+```
+
+Run server:
+
+```sh
+$ npm start
+```
+
+## Reference
+
+Reference of the project:
+[Libib](https://www.libib.com/)
